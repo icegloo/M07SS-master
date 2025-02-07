@@ -1,0 +1,17 @@
+//---------------------------------------------------------------------------
+
+#ifndef threadH
+#define threadH
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+//---------------------------------------------------------------------------
+class ThreadServ : public TThread
+{
+private:
+protected:
+	void __fastcall Execute();
+public:
+	__fastcall ThreadServ(bool CreateSuspended);
+};
+//---------------------------------------------------------------------------
+#endif

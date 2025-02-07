@@ -1,0 +1,23 @@
+//---------------------------------------------------------------------------
+
+#ifndef ThreadServH
+#define ThreadServH
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+
+#include "ServeurDonneeDrone.h"
+//---------------------------------------------------------------------------
+class ThreadServ : public TThread
+{
+private:
+
+	ServeurDonneeDrone *TelloServeur;
+	String Texte;
+protected:
+	void __fastcall Execute();
+    void __fastcall ThreadServ::UpdateCaption(String texte);
+public:
+	__fastcall ThreadServ(bool CreateSuspended);
+};
+//---------------------------------------------------------------------------
+#endif
