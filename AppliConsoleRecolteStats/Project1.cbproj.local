@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/09/24 11:36:43.000.347,=C:\Users\lpokrywa.LLA\Documents\Embarcadero\Studio\Projets\File1.cpp</Transaction>
+    <Transaction>2024/09/24 11:36:43.000.081,=C:\Users\lpokrywa.LLA\Documents\Embarcadero\Studio\Projets\Project1PCH1.h</Transaction>
+    <Transaction>2024/09/24 11:36:57.000.842,C:\Users\lpokrywa.LLA\Documents\Embarcadero\Studio\Projets\File1.cpp=C:\Users\lpokrywa.LLA\Desktop\M07SS\AppliConsoleRecolteStats\File1.cpp</Transaction>
+    <Transaction>2024/09/24 11:37:16.000.860,C:\Users\lpokrywa.LLA\Desktop\M07SS\AppliConsoleRecolteStats\File1.cpp=C:\Users\lpokrywa.LLA\Desktop\M07SS\AppliConsoleRecolteStats\main.cpp</Transaction>
+    <Transaction>2024/09/24 11:37:30.000.944,=C:\Users\lpokrywa.LLA\Desktop\M07SS\AppliConsoleRecolteStats\IRServeurUDP.cpp</Transaction>
+    <Transaction>2024/09/24 11:37:30.000.975,=C:\Users\lpokrywa.LLA\Desktop\M07SS\AppliConsoleRecolteStats\IRServeurUDP.h</Transaction>
+    <Transaction>2024/09/24 11:37:39.000.167,C:\Users\lpokrywa.LLA\Documents\Embarcadero\Studio\Projets\Project1.cbproj=C:\Users\lpokrywa.LLA\Desktop\M07SS\AppliConsoleRecolteStats\Project1.cbproj</Transaction>
+    <Transaction>2024/09/24 11:37:39.000.167,C:\Users\lpokrywa.LLA\Documents\Embarcadero\Studio\Projets\Project1PCH1.h=C:\Users\lpokrywa.LLA\Desktop\M07SS\AppliConsoleRecolteStats\Project1PCH1.h</Transaction>
+    <Transaction>2024/09/24 11:37:40.000.604,C:\Users\lpokrywa.LLA\Desktop\M07SS\AppliConsoleRecolteStats\Project1.cbproj=C:\Users\lpokrywa.LLA\Desktop\M07SS\AppliConsoleRecolteStats\Project1.cbproj</Transaction>
+    <Transaction>2024/10/01 10:13:14.000.988,=C:\Users\lpokrywa.LLA\Desktop\M07SS\AppliConsoleRecolteStats\IRClientTCP.cpp</Transaction>
+    <Transaction>2024/10/01 10:13:15.000.035,=C:\Users\lpokrywa.LLA\Desktop\M07SS\AppliConsoleRecolteStats\IRClientTCP.h</Transaction>
+    <Transaction>2024/10/01 10:13:34.000.609,=C:\Users\lpokrywa.LLA\Desktop\M07SS\AppliConsoleRecolteStats\ServeurDonneeDrone.cpp</Transaction>
+  </Transactions>
+</BorlandProject>

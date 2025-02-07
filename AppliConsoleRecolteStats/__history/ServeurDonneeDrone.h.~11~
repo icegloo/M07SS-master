@@ -1,0 +1,26 @@
+//---------------------------------------------------------------------------
+
+#ifndef ServeurDonneeDroneH
+#define ServeurDonneeDroneH
+//---------------------------------------------------------------------------
+#endif
+
+#include <fstream>
+#include "IRServeurUDP"
+#include <string>
+
+class ServeurDonneeDrone{
+    private:
+        ofstream fichierLog;
+        IRServeurUDP serveurUDP;
+        std::string leJSON;
+
+    public:
+        ServeurDonneeDrone(std::string pilot, std::string numeroDrone);
+        void OuvrirFichierLog(std::string nomFichier);
+        void AjouterFichierLog();
+
+
+
+
+};
