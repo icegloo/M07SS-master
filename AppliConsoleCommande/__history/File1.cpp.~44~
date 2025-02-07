@@ -1,0 +1,102 @@
+#include <iostream>
+#include <tchar.h>
+#include "IRClientUDP.h"
+#include <string>
+#include <stdlib.h>
+
+int _tmain(int argc, _TCHAR* argv[])
+{
+
+    IRClientUDP tello;
+    std::string cmd;
+    tello.OuvrirLaSocketDeCommunication("172.20.21.38",8889);
+
+    do{
+
+        std::cout << "        C       ciel                                      \n";
+        std::cout << "        S       sol                                       \n";
+        std::cout << "        H       haut                 [H=25cm  HH=50cm ...]\n";
+        std::cout << "        B       bas                  [B=25cm  BB=50cm ...]\n";
+        std::cout << "        G       gauche               [G=25cm  GG=50cm ...]\n";
+        std::cout << "        D       droite               [D=25cm  DD=50cm ...]\n";
+        std::cout << "        A       avance               [A=25cm  AA=50cm ...]\n";
+        std::cout << "        R       recul                [R=25cm  RR=50cm ...]\n";
+        std::cout << "        P       pivoter sens horaire [P=25cm  PP=50cm ...]\n";
+        std::cout << "        T       pivoter sens trigo   [T=25cm  TT=50cm ...]\n";
+        std::cout << "        M       mode commande        						\n";
+        std::cout << "        Q       quitter              						\n\n";
+        std::cout << "Votre commande : ";
+        std::getline(std::cin,cmd);
+
+        if (cmd == "C") {
+        	tello.EnvoyerUnMessage("takeoff");
+        }
+        else if(cmd == "S") {
+    		tello.EnvoyerUnMessage("land");
+        }
+        else if(cmd == "H") {
+            tello.EnvoyerUnMessage("up 25");
+        }
+        else if(cmd == "HH") {
+            tello.EnvoyerUnMessage("up 50");
+        }
+        else if(cmd == "B") {
+            tello.EnvoyerUnMessage("down 25");
+        }
+        else if(cmd == "BB") {
+            tello.EnvoyerUnMessage("down 50");
+        }
+        else if(cmd == "G") {
+            tello.EnvoyerUnMessage("left 25");
+        }
+        else if(cmd == "GG") {
+            tello.EnvoyerUnMessage("left 50");
+        }
+        else if(cmd == "D") {
+            tello.EnvoyerUnMessage("right 25");
+        }
+        else if(cmd == "DD") {
+            tello.EnvoyerUnMessage("right 50");
+        }
+        else if(cmd == "A") {
+            tello.EnvoyerUnMessage("forward 25");
+        }
+        else if(cmd == "AA") {
+            tello.EnvoyerUnMessage("forward 50");
+        }
+        else if(cmd == "R") {
+        	tello.EnvoyerUnMessage("backward 25");
+        }
+        else if(cmd == "RR") {
+        	tello.EnvoyerUnMessage("backward 50");
+        }
+        else if(cmd == "P") {
+            tello.EnvoyerUnMessage("cw 30");
+        }
+        else if(cmd == "PP") {
+            tello.EnvoyerUnMessage("cw 60");
+        }
+        else if(cmd == "T") {
+        	tello.EnvoyerUnMessage("ccw 30");
+        }
+        else if(cmd == "TT") {
+        	tello.EnvoyerUnMessage("ccw 60");
+        }
+        else if(cmd == "M") {
+            tello.EnvoyerUnMessage("command");
+        }
+        else if(cmd == "Q") {
+        	break;
+        }
+        else{
+            std::cout << "Erreur";
+        }
+
+        system("cls");
+
+    }while(true);
+
+    return 0;
+
+
+}

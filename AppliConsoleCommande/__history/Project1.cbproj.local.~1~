@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2024/09/24 10:12:03.290,=C:\Users\lpokrywa.LLA\Documents\Embarcadero\Studio\Projets\Project1PCH1.h</Transaction>
+    <Transaction>2024/09/24 10:12:03.634,=C:\Users\lpokrywa.LLA\Documents\Embarcadero\Studio\Projets\File1.cpp</Transaction>
+    <Transaction>2024/09/24 10:12:11.336,C:\Users\lpokrywa.LLA\Desktop\M07SS\AppliConsole\File1.cpp=C:\Users\lpokrywa.LLA\Documents\Embarcadero\Studio\Projets\File1.cpp</Transaction>
+    <Transaction>2024/09/24 10:12:15.507,C:\Users\lpokrywa.LLA\Desktop\M07SS\AppliConsole\Project1PCH1.h=C:\Users\lpokrywa.LLA\Documents\Embarcadero\Studio\Projets\Project1PCH1.h</Transaction>
+    <Transaction>2024/09/24 10:12:15.507,C:\Users\lpokrywa.LLA\Desktop\M07SS\AppliConsole\Project1.cbproj=C:\Users\lpokrywa.LLA\Documents\Embarcadero\Studio\Projets\Project1.cbproj</Transaction>
+    <Transaction>2024/09/24 10:13:07.792,=C:\Users\lpokrywa.LLA\Desktop\M07SS\AppliConsole\IRClientUDP.h</Transaction>
+    <Transaction>2024/09/24 10:13:07.885,=C:\Users\lpokrywa.LLA\Desktop\M07SS\AppliConsole\IRClientUDP.cpp</Transaction>
+    <Transaction>2024/09/24 10:50:40.568,=C:\Users\lpokrywa.LLA\Desktop\M07SS\AppliConsole\Unit1.cpp</Transaction>
+    <Transaction>2024/09/24 10:51:01.471,C:\Users\lpokrywa.LLA\Desktop\M07SS\AppliConsole\TelloClientUDP.h=C:\Users\lpokrywa.LLA\Desktop\M07SS\AppliConsole\Unit1.h</Transaction>
+    <Transaction>2024/09/24 10:51:01.471,C:\Users\lpokrywa.LLA\Desktop\M07SS\AppliConsole\TelloClientUDP.cpp=C:\Users\lpokrywa.LLA\Desktop\M07SS\AppliConsole\Unit1.cpp</Transaction>
+  </Transactions>
+</BorlandProject>
